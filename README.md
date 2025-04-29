@@ -55,12 +55,14 @@ https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
 
 
 and then create an environment using the supplied yaml file:
+
 ```shell script
 micromamba create -f <robotics-toolbox-python-bugfix>/rbmm_env.yaml
 ```
 
 <br>
 Activate this environment using:
+
 ```shell script
 micromamba activate rbtb-dev
 
