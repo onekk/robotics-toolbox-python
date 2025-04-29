@@ -33,6 +33,50 @@ Added files:
 - rbtb-cd.yaml micromamba yaml file
 
 
+
+## Getting going
+
+
+### Clone the repo from GitHub
+
+
+```shell script
+git clone https://github.com/onekk/robotics-toolbox-python-bugfix
+cd robotics-toolbox-python
+
+```
+
+### Use
+The most straightforward way is to use micromamba:
+
+See: 
+
+https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+
+
+and then create an environment using the supplied yaml file:
+```shell script
+micromamba create -f <robotics-toolbox-python-bugfix>/rbmm_env.yaml
+```
+
+<br>
+Activate this environment using:
+```shell script
+micromamba activate rbtb-dev
+
+```
+
+<br>
+Then go to the <b>robotics-toolbox-python-bugfix</b> folder and issue:
+
+```shell script
+pip install -e .
+
+```
+
+<br>
+
+
 ## Contents
 
 - [Synopsis](#1)
@@ -88,48 +132,6 @@ provide support for data types such as SO(n) and SE(n) matrices, quaternions, tw
 
 <a id='2'></a>
 
-## Getting going
-
-You will need Python >= 3.6
-
-
-### From GitHub
-
-To install the bleeding-edge version from GitHub
-
-```shell script
-git clone https://github.com/onekk/robotics-toolbox-python-bugfix
-cd robotics-toolbox-python
-
-```
-
-### Use
-The most straightforward way is to use micromamba:
-
-See: 
-
-https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
-
-
-and then create an environment using the supplied yaml file:
-```shell script
-micromamba create -f <robotics-toolbox-python-bugfix>/rbmm_env.yaml
-```
-
-<br>
-Activate this environment using:
-```shell script
-micromamba activate rbtb-dev
-```
-
-<br>
-Then go to the <b>robotics-toolbox-python-bugfix</b> folder and issue:
-
-```shell script
-pip install -e .
-```
-
-<br>
 
 <a id='3'></a>
 
