@@ -41,7 +41,7 @@ Added files:
 
 
 ```shell script
-git clone https://github.com/onekk/robotics-toolbox-python-bugfix
+git clone https://github.com/onekk/robotics-toolbox-python
 cd robotics-toolbox-python
 
 ```
@@ -57,10 +57,12 @@ https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
 and then create an environment using the supplied yaml file:
 
 ```shell script
-micromamba create -f <robotics-toolbox-python-bugfix>/rbmm_env.yaml
+micromamba create -f <robotics-toolbox-python>/rbmm_env.yaml
 ```
 
 <br>
+This will create an environment named <b>rbtb-dev</b>.
+<br><br>
 Activate this environment using:
 
 ```shell script
@@ -70,7 +72,7 @@ micromamba activate rbtb-dev
 
 <br>
 
-Then go to the <b>robotics-toolbox-python-bugfix</b> folder and issue:
+Then go to the <b>robotics-toolbox-python</b> folder and issue:
 
 ```shell script
 pip install -e .
@@ -78,6 +80,14 @@ pip install -e .
 ```
 
 <br>
+This will install the required packages with the correct versions in a way that will avoid conflicts keeping things separated from the system installed libraries and programs.
+
+<br>
+
+This will permit to avoid the use of complicated programs, you could issue most of these command on a terminal.
+
+On Windows it is better to use the <b>Git Bash</b> shell that is usually installed when you install <a href="https://gitforwindows.org/"> Git for Windows. </a>
+
 
 
 ## Contents
