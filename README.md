@@ -1,23 +1,12 @@
 # Robotics Toolbox for Python
 
-[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)
-[![Powered by Spatial Maths](https://raw.githubusercontent.com/petercorke/spatialmath-python/master/.github/svg/sm_powered.min.svg)](https://github.com/petercorke/spatialmath-python)
-[![QUT Centre for Robotics Open Source](https://github.com/qcr/qcr.github.io/raw/master/misc/badge.svg)](https://qcr.github.io)
 
-[![PyPI version](https://badge.fury.io/py/roboticstoolbox-python.svg)](https://badge.fury.io/py/roboticstoolbox-python)
-[![Anaconda version](https://anaconda.org/conda-forge/roboticstoolbox-python/badges/version.svg)](https://anaconda.org/conda-forge/roboticstoolbox-python)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/roboticstoolbox-python.svg)
+Forked from 1.1.1 bugfix fork:
 
-[![Build Status](https://github.com/petercorke/robotics-toolbox-python/workflows/Test/badge.svg?branch=master)](https://github.com/petercorke/robotics-toolbox-python/actions?query=workflow%3ATest)
-[![Coverage](https://codecov.io/gh/petercorke/robotics-toolbox-python/branch/master/graph/badge.svg)](https://codecov.io/gh/petercorke/robotics-toolbox-python)
-[![PyPI - Downloads](https://img.shields.io/pypi/dw/roboticstoolbox-python)](https://pypistats.org/packages/roboticstoolbox-python)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/codeFighter2022/robotics-toolbox-python-bugfix">https://github.com/codeFighter2022/robotics-toolbox-python-bugfix</a>
 
-<table style="border:0px">
-<tr style="border:0px">
-<td style="border:0px">
-<img src="https://github.com/petercorke/robotics-toolbox-python/raw/master/docs/figs/RobToolBox_RoundLogoB.png" width="200"></td>
-<td style="border:0px">
+Original work from:
+
 A Python implementation of the <a href="https://github.com/petercorke/robotics-toolbox-matlab">Robotics Toolbox for MATLAB<sup>&reg;</sup></a>
 <ul>
 <li><a href="https://github.com/petercorke/robotics-toolbox-python">GitHub repository </a></li>
@@ -33,9 +22,6 @@ A Python implementation of the <a href="https://github.com/petercorke/robotics-t
 
 ## Note
 
-Forked from 1.1.1 bugfix fork:
-
-https://github.com/codeFighter2022/robotics-toolbox-python-bugfix
 
 Amended some files to make it work correctly:
 
@@ -136,7 +122,7 @@ Activate this environment using:
 micromamba activate rbtb-dev
 ```
 
-
+<br>
 Then go to the <b>robotics-toolbox-python-bugfix</b> folder and issue:
 
 ```shell script
