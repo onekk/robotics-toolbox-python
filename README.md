@@ -67,6 +67,7 @@ micromamba activate rbtb-dev
 ```
 
 <br>
+
 Then go to the <b>robotics-toolbox-python-bugfix</b> folder and issue:
 
 ```shell script
@@ -80,7 +81,6 @@ pip install -e .
 ## Contents
 
 - [Synopsis](#1)
-- [Getting going](#2)
 - [Tutorials](#3)
 - [Code Examples](#4)
 - [Toolbox Research Applications](#5)
